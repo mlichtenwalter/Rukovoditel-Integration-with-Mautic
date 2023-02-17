@@ -1,7 +1,0 @@
-services:
-    mautic.crm.transport.rukovoditel:
-        class: Mautic\Plugin\RukovoditelBundle\Transport\RukovoditelTransport
-        arguments:
-            - "@mautic.integration.rukovoditel"
-            - "%mautic.plugin.rukovoditel.transport_settings%"
-            - "@mautic.crm.api"
